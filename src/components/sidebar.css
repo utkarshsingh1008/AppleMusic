@@ -1,0 +1,31 @@
+
+@media (min-width: 1024px) {
+    .login  {
+        display: none;
+    }}
+    .drawer{
+        display:block;
+    }
+
+    @media(min-width:1024px){
+        .drawer{
+            display: none;
+            }
+        }
+        @media (min-width: 768px) and (max-width: 1023px) {
+            .SidebarCol {
+              padding: 250px;
+            }
+            .login {
+              width: 120px;
+              margin-left: 10px;
+            }
+            /* Add any other styles you want to apply on tablets */
+          }
+          .element:hover {
+            width: 200px; /* Change the width to your desired value */
+            transition: width 0.5s; /* Add a smooth transition effect */
+          }
+          
+
+    

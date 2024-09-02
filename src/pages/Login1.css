@@ -1,0 +1,48 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.button.x{
+    background-color:gray;
+    font-size: 32px;
+    margin: 384px;
+
+    color: black;
+    border-radius: 50%;
+    padding: 16px 8px;
+
+}
+.button-x:hover{
+    background-color: rgb(59, 56, 56);
+}
+.logo-app{
+    color: rgb(55, 54, 54);
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+.login-heading{
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 8px;
+
+}
+.para-text{
+    color: rgb(70, 68, 68);
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+.input-email {
+    padding: 0.5rem 1rem; /* px-4 py-2 */
+    border: 1px solid #D1D5DB; /* border-gray-300 */
+    border-radius: 0.375rem; /* rounded-md */
+    width: 100%; /* w-full */
+    max-width: 28rem; /* max-w-md */
+  }
+  
+  .input-email:focus {
+    outline: none; /* focus:outline-none */
+    border-color: #3B82F6; /* focus:border-blue-500 */
+  }

@@ -12,7 +12,8 @@ function Radio() {
       fontFamily: 'Verdana, sans-serif',
       textTransform: 'uppercase',
       letterSpacing: '3px',
-      marginTop: '10%',
+      marginTop: '18%',
+      marginRight:"10%",
       userSelect: 'none',
       cursor: 'pointer',
       color: 'grey', // New color: orange-red

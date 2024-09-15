@@ -10,7 +10,7 @@ export default function AlbumSongs() {
   };
 
   return (
-    <Card>
+    <Card style={{marginTop:"7%"}}>
       <CardContent>
         <Typography variant="h5" component="h1">{songId.title}</Typography>
         <img src={songId.image}  width="300px" alt="" />

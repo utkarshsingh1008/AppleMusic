@@ -59,7 +59,7 @@ function Library() {
   };
 
   return (
-    <div className="global-container" style={{ marginLeft: '60px' }}>
+    <div className="global-container" style={{ marginLeft: '30px',  marginRight:"30px", marginTop:"10%" }}>
       <div className="right-sidebar">
         <TableContainer component={Paper}>
           <Table>
